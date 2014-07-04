@@ -47,6 +47,13 @@ module.exports = function (grunt) {
     coffeelint: {
       app: ['src/*.coffee']
     },
+    jshint: {
+      options: {
+        reporter: require('jshint-stylish'),
+        jshintrc: true
+      },
+      target: ["dist/<%= config.name %>.js"]
+    },
     uglify: {
       dist: {
         files: {
@@ -60,6 +67,7 @@ module.exports = function (grunt) {
     'clean',
     'coffeelint',
     'coffee',
+    'jshint',
     'karma'
   ]);
 

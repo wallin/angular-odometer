@@ -1,0 +1,35 @@
+{
+  "name": "angular-odometer-js",
+  "version": "0.1.0",
+  "author": {
+    "name": "Sebastian Wallin"
+  },
+  "description": "Angular.JS wrapper for Hubspot Odometer",
+  "keywords": [
+    "angular",
+    "odometer"
+  ],
+  "license": "MIT",
+  "main": "./dist/angular-odometer.js",
+  "homepage": "http://github.com/wallin/angular-odometer",
+  "ignore": [
+    "package.json",
+    "Gruntfile.js",
+    "karma.conf.js",
+    "spec",
+    "src",
+    "README.md"
+  ],
+  "dependencies": {
+    "angular": "1.2.x",
+    "odometer": "0.4.x"
+  },
+  "devDependencies": {
+    "angular-mocks": "1.2.x",
+    "jquery": "1.10.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/wallin/angular-odometer"
+  }
+}

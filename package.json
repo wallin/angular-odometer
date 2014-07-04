@@ -1,0 +1,43 @@
+{
+  "name": "angular-odometer-js",
+  "version": "0.1.0",
+  "author": {
+    "name": "Sebastian Wallin"
+  },
+  "description": "Angular.JS wrapper for Hubspot Odometer",
+  "keywords": [],
+  "license": "MIT",
+  "main": [
+    "./dist/angular-odometer.js"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "grunt": "0.4.5",
+    "grunt-contrib-copy": "0.5.0",
+    "grunt-contrib-coffee": "0.10.1",
+    "grunt-contrib-jshint": "0.10.0",
+    "grunt-contrib-uglify": "0.5.0",
+    "grunt-coffeelint": "0.0.10",
+    "grunt-karma": "0.8.3",
+    "jshint-stylish": "0.2.0",
+    "karma": "0.12.16",
+    "karma-coverage": "0.2.4",
+    "karma-jasmine": "0.1.5",
+    "karma-phantomjs-launcher": "0.1.4",
+    "matchdep": "0.3.0",
+    "grunt-contrib-clean": "^0.5.0"
+  },
+  "peerDependencies": {
+    "grunt-cli": "0.1.13"
+  },
+  "engines": {
+    "node": ">=0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wallin/angular-odometer"
+  }
+}

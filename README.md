@@ -14,19 +14,20 @@ Requirements
 -----
 
 * AngularJS (http://angularjs.org)
+* Odometer (http://github.hubspot.com/odometer/docs/welcome/)
 
 Install with Bower
 -----
 
 ```
-bower install angular-odometer-js
+bower install angular-odometer-js --save
 ```
 
 Install with NPM
 -----
 
 ```
-npm install angular-odometer-js
+npm install angular-odometer-js --save
 ```
 
 Usage
@@ -34,7 +35,7 @@ Usage
 Include `angular-odometer.js` in your application, as well as the `odometer.js` and the [default theme CSS file](http://github.hubspot.com/odometer/api/themes/)
 
 ```html
-<script src="components/odometer/md5.js"></script>
+<script src="components/odometer/odometer.js"></script>
 <script src="components/angular-odometer/dist/angular-odometer.js"></script>
 
 <link rel="stylesheet" href="components/odometer/themes/odometer-theme-minimal.css"/>

@@ -35,7 +35,7 @@ Include `angular-odometer.js` in your application, as well as the `odometer.js` 
 
 ```html
 <script src="components/odometer/md5.js"></script>
-<script src="components/angular-odometer/build/angular-odometer.js"></script>
+<script src="components/angular-odometer/dist/angular-odometer.js"></script>
 
 <link rel="stylesheet" href="components/odometer/themes/odometer-theme-minimal.css"/>
 ```

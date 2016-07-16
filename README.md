@@ -6,7 +6,7 @@
 angular-odometer
 ==============
 
-Angular.JS directive for [Hubspot angular-odometer](http://github.hubspot.com/odometer/docs/welcome/).
+Angular.JS directive for [Hubspot odometer](http://github.hubspot.com/odometer/docs/welcome/).
 
 Copyright (C) 2014, Sebastian Wallin <sebastian.wallin@gmail.com>
 

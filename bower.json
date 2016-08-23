@@ -21,11 +21,11 @@
     "README.md"
   ],
   "dependencies": {
-    "angular": "1.2.x",
+    "angular": "1.2.x - 1.5.x",
     "odometer": "0.4.x"
   },
   "devDependencies": {
-    "angular-mocks": "1.2.x",
+    "angular-mocks": "1.2.x - 1.5.x",
     "jquery": "1.10.x"
   },
   "repository": {

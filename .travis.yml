@@ -4,4 +4,5 @@ node_js:
 before_script:
   - npm install grunt-cli -g
   - npm install -g bower
+  - npm install -g phantomjs
   - bower install

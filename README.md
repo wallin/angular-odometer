@@ -41,10 +41,10 @@ Include `angular-odometer.js` in your application, as well as the `odometer.js` 
 <link rel="stylesheet" href="components/odometer/themes/odometer-theme-minimal.css"/>
 ```
 
-Add the module `ui.odometer` as a dependency to your app:
+Add the module `ngOdometer` as a dependency to your app:
 
 ```js
-var app = angular.module('app', ['ui.odometer']);
+var app = angular.module('app', ['ngOdometer']);
 ```
 
 Then use the directive on a tag of choice tag and it will convert it to a odometer for you. Examples:
